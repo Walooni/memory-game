@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press Start Button</h1>
+  <div class="container">
+    <div lass="row">
+      <!-- green btn -->
+      <div type="button" id="green" class="btn green">
+
+
+      </div>
+      <audio id="green-audio">
+        <source src="./sounds/green.mp3" type="audio/mpeg" />
+      </audio>
+      
+      <!-- red btn -->
+      <div type="button" id="red" class="btn red">
+        
+      </div>
+      <audio id="red-audio">
+        <source src="./sounds/red.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    
+    <div class="row">
+      
+      <!-- yellow btn -->
+      <div type="button" id="yellow" class="btn yellow">
+        
+      </div>
+      <audio id="yellow-audio">
+        <source src="./sounds/yellow.mp3" type="audio/mpeg" />
+      </audio>
+      <!-- blue btn -->
+      <div type="button" id="blue" class="btn blue">
+        
+      </div>
+      <audio id="blue-audio">
+        <source src="./sounds/blue.mp3" type="audio/mpeg" />
+      </audio>
+
+    </div>
+
+    <button class="start">Start</button>
+    <button class="restart">Restart</button>
+
+  </div>
+
+
+
+  <!-- jquery and JS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
